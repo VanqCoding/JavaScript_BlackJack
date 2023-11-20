@@ -5,52 +5,56 @@ body {
     text-align: center;
     color: white;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
 h1 {
     color: goldenrod;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    margin-bottom: 20px;
 }
 
 #message-el {
     font-style: italic;
-    color: salmon;
-    font-weight: 1000;
+    color: #3498db;
+    font-weight: 700;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
 }
 
-#sum-el{
+#sum-el, #dealer-sum-el {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
 }
 
-#dealer-sum-el{
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.button{
+.button {
     color: #016f32;
     width: 150px;
     background-color: goldenrod;
     border-radius: 3px;
     font-style: oblique;
-    padding-top: 5px;
-    padding-bottom: 5px; 
+    padding: 10px;
     border: none;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
-#player-div{
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    border: 2px solid red;
+#player-div, #dealer-div {
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 3px solid black;
     background: linear-gradient(to bottom right, #006400, #003300);
 }
 
-#dealer-div{
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    border: 2px solid red;
-    background: linear-gradient(to bottom right, #006400, #003300);
+#main-div {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 50px;
 }
