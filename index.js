@@ -113,7 +113,7 @@ function stand() {
         dealerSumEl.textContent = "Dealer Sum: " + dealerSum;
 
         determineWinner();
-        endGame();  // Ensure the game ends after the dealer's turn
+        endGame();
     }
 }
 
@@ -137,4 +137,5 @@ function endGame() {
     isAlive = false;
     dealerCards = [];
     dealerSum = 0;
+    hasBlackJack = false;
 }
