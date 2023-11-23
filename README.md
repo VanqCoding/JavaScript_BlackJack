@@ -1,6 +1,6 @@
 # Blackjack Game
 
-<img src="Screenshot.png" alt="Project Image" width="500"/>
+<img src="Screenshot.png" alt="Project Image" width="600"/>
 
 Welcome to the Blackjack game! This project is a simple implementation of the classic card game using HTML, CSS, and JavaScript.
 
