@@ -5,7 +5,7 @@
 Welcome to the Blackjack game! This project is a simple implementation of the classic card game using HTML, CSS, and JavaScript.
 
 ## Demo
-Try it out: [https://tubular-kitten-71833e.netlify.app/](https://black-jack-telmen.netlify.app)
+Try it out: https://black-jack-telmen.netlify.app
 
 ## How to Use
 - "Create New Game": Starts the game with 2 cards
